@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        app:scale_base_height="1920"
+        app:scale_base_width="1080">
+
+        <ImageButton
+            android:id="@+id/MotorizedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="400"
+            app:scale_left="600"
+            app:scale_top="500"
+            app:scale_width="400"
+            app:srcCompat="@drawable/motorized6" />
+
+        <ImageButton
+            android:id="@+id/NonMotorizedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="400"
+            app:scale_left="100"
+            app:scale_top="500"
+            app:scale_width="400"
+            app:srcCompat="@drawable/motorized5" />
+
+        <ImageButton
+            android:id="@+id/MetroButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="400"
+            app:scale_left="600"
+            app:scale_top="975"
+            app:scale_width="400"
+            app:srcCompat="@drawable/metro" />
+
+        <ImageButton
+            android:id="@+id/CarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="400"
+            app:scale_left="100"
+            app:scale_top="1450"
+            app:scale_width="400"
+            app:srcCompat="@drawable/car" />
+
+        <ImageButton
+            android:id="@+id/BusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="400"
+            app:scale_left="100"
+            app:scale_top="975"
+            app:scale_width="400"
+            app:srcCompat="@drawable/bus" />
+
+        <ImageButton
+            android:id="@+id/StillButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="400"
+            app:scale_left="100"
+            app:scale_top="25"
+            app:scale_width="400"
+            app:srcCompat="@drawable/still" />
+
+        <ImageButton
+            android:id="@+id/WalkingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="400"
+            app:scale_left="600"
+            app:scale_top="25"
+            app:scale_width="400"
+            app:srcCompat="@drawable/walking" />
+
+        <TextView
+            android:id="@+id/Walking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Walking"
+            android:textColorLink="#00EC0000"
+            app:scale_height="100"
+            app:scale_left="600"
+            app:scale_textsize="50"
+            app:scale_top="415"
+            app:scale_width="400" />
+
+        <TextView
+            android:id="@+id/still"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Still"
+            app:scale_height="100"
+            app:scale_left="100"
+            app:scale_textsize="50"
+            app:scale_top="415"
+            app:scale_width="400" />
+
+        <TextView
+            android:id="@+id/Bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Bus"
+            app:scale_height="100"
+            app:scale_left="100"
+            app:scale_textsize="50"
+            app:scale_top="1365"
+            app:scale_width="400" />
+
+        <TextView
+            android:id="@+id/Car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Car"
+            app:scale_height="100"
+            app:scale_left="100"
+            app:scale_textsize="50"
+            app:scale_top="1840"
+            app:scale_width="400" />
+
+        <TextView
+            android:id="@+id/Metro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Metro"
+            app:scale_height="100"
+            app:scale_left="600"
+            app:scale_textsize="50"
+            app:scale_top="1365"
+            app:scale_width="400" />
+
+        <TextView
+            android:id="@+id/motorized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Power Wheelchair"
+            app:scale_height="100"
+            app:scale_left="505"
+            app:scale_textsize="50"
+            app:scale_top="890"
+            app:scale_width="600" />
+
+        <TextView
+            android:id="@+id/nonMotorized"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Manual Wheelchair"
+            app:scale_height="100"
+            app:scale_left="5"
+            app:scale_textsize="50"
+            app:scale_top="890"
+            app:scale_width="600" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+</FrameLayout>
